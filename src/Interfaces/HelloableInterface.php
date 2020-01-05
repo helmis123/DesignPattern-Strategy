@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Interfaces;
-interface Helloable
+interface HelloableInterface
 {
     function getHello():string;
 

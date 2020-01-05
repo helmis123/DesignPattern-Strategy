@@ -4,9 +4,9 @@
 namespace App\Classes;
 
 use App\Behaviors\BehaviorGetDate;
-use App\Interfaces\HelloAndDateable;
+use App\Interfaces\HelloAndDateableInterface;
 
-class AbstractCountry implements HelloAndDateable
+class AbstractCountry implements HelloAndDateableInterface
 {
     public string $hello = 'Hello';
     public BehaviorGetDate $getDate ;

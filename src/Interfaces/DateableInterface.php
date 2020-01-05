@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Interfaces;
-interface Dateable
+interface DateableInterface
 {
    function getDate():string;
 }
